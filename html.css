@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__item {
+    text-decoration: none;
+    display: inline-block;    
+    color: black;
+    border: 1px solid black;
+    justify-content: center;
+    margin: -2px;
+    padding: 10px;
+}
+
+.em {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.dm {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu__item:hover {
+    background-color: burlywood;
+}
